@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: Black;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header / navbar styles begin */
+header {
+  background-color: #111111;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 35px 20px 0;
+}
