@@ -31,3 +31,38 @@ header h1 {
   color: #111111;
   text-decoration: none;
 }
+
+header a {
+  color: SkyBlue;
+  text-decoration: none;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  border-bottom: 3px solid;
+  border-color: SkyBlue;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  padding: 10px 15px;
+}
+
+header nav ul li a:hover {
+  background: White;
+  border-radius: 15px;
+  color: Black;
+  text-shadow: none;
+}
+/* Header / navbar styles end */
