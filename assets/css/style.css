@@ -142,3 +142,22 @@ section {
   color: SteelBlue;
 }
 /* About Me Styles End */
+
+/* Work styles begin */
+.grid-work-title {
+  border-right: 3px solid;
+  border-color: SteelBlue;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+.taskinator {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  position: relative;
+  text-align: center;
+}
