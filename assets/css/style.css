@@ -66,3 +66,52 @@ header nav ul li a:hover {
   text-shadow: none;
 }
 /* Header / navbar styles end */
+
+/* Section tag style */
+
+section {
+  padding: 60px;
+}
+
+/* Hero styles begin */
+
+.hero {
+  background-image: url("../images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.subtitle {
+  background-color: SkyBlue;
+  color: #111111;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 5px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* Hero styles end */
+
+/* Grid styles begin */
+.grid {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid div {
+  background-color: AliceBlue;
+}
+
+/* Section title style */
+.section-title {
+  color: SteelBlue;
+  font-size: 48px;
+  text-align: right;
+  margin: 0 auto 35px auto;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
